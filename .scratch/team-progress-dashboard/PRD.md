@@ -37,39 +37,39 @@
 
 ### 팀장 (Primary User)
 
-1. As a team leader, I want to see all 10 team members' progress on every task in a single dashboard view, so that I can assess overall team health at a glance.
+1. 팀장으로서, 나는 모든 팀원(10명)의 모든 작업 진행상황을 하나의 대시보드에서 보고 싶습니다. 그래야 팀 전체 상태를 한눈에 파악할 수 있습니다.
 
-2. As a team leader, I want progress updates to appear on my dashboard within 1 second of a team member submitting them, so that I'm always looking at current state.
+2. 팀장으로서, 나는 팀원의 진행상황 입력 후 1초 이내에 대시보드에 업데이트되는 것을 보고 싶습니다. 그래야 항상 최신 상태를 볼 수 있습니다.
 
-3. As a team leader, I want progress statuses to be color-coded (in progress = blue, complete = green, blocked = gray), so that I can quickly scan and identify problem areas.
+3. 팀장으로서, 나는 진행상황 상태를 색상으로 구분하고 싶습니다 (진행중=파란색, 완료=초록색, 대기=회색). 그래야 빠르게 스캔하고 문제 영역을 찾을 수 있습니다.
 
-4. As a team leader, I want to see the last update timestamp for each team member's task, so that I know how fresh the information is.
+4. 팀장으로서, 나는 각 팀원의 작업별 마지막 업데이트 시간을 보고 싶습니다. 그래야 정보가 얼마나 최신인지 알 수 있습니다.
 
-5. As a team leader, I want an AI-generated team status summary that synthesizes all team members' progress updates, so that I can understand blockers and overall completion rate without reading individual entries.
+5. 팀장으로서, 나는 모든 팀원의 진행상황 입력을 AI가 종합 분석한 팀 현황 요약을 보고 싶습니다. 그래야 개별 항목을 읽지 않고도 블로커와 전체 완료율을 이해할 수 있습니다.
 
-6. As a team leader, I want the AI summary to identify and surface key blockers mentioned in progress updates, so that I can prioritize unblocking work.
+6. 팀장으로서, 나는 AI 요약이 진행상황 입력에서 언급된 주요 블로커를 찾아내고 표면화하기를 바랍니다. 그래야 차단 해제 작업을 우선순위로 설정할 수 있습니다.
 
-7. As a team leader, I want the AI summary to provide a one-sentence snapshot (e.g., "5 in progress, 3 complete, 2 blocked | Key blockers: data validation, API performance"), so that I can brief stakeholders quickly.
+7. 팀장으로서, 나는 AI 요약이 한 문장의 스냅샷을 제공하기를 바랍니다 (예: "5명 진행중, 3명 완료, 2명 대기 | 주요 블로커: 데이터 검증, API 성능"). 그래야 이해관계자들에게 빠르게 보고할 수 있습니다.
 
-8. As a team leader, I want to see historical progress data for the past 7 days, so that I can understand trends and detect patterns of delay.
+8. 팀장으로서, 나는 지난 7일간의 진행상황 히스토리를 보고 싶습니다. 그래야 트렌드를 이해하고 지연 패턴을 감지할 수 있습니다.
 
-9. As a team leader, I want to manage the team member roster (add/remove members), so that the dashboard stays current as the team evolves.
+9. 팀장으로서, 나는 팀원 명단을 관리하고 싶습니다 (팀원 추가/제거). 그래야 팀 구성이 바뀔 때 대시보드를 최신으로 유지할 수 있습니다.
 
-10. As a team leader, I want to manage the task list (add new tasks, update descriptions), so that the dashboard reflects current work.
+10. 팀장으로서, 나는 작업 목록을 관리하고 싶습니다 (새 작업 추가, 설명 수정). 그래야 대시보드가 현재 업무를 반영하게 합니다.
 
-11. As a team leader, I want to access the dashboard from any browser, so that I can check progress from my desk, in meetings, or on the go.
+11. 팀장으로서, 나는 어느 브라우저에서나 대시보드에 접근하고 싶습니다. 그래야 책상에서, 회의 중, 이동 중에도 진행상황을 확인할 수 있습니다.
 
 ### 팀원 (Secondary User)
 
-12. As a team member, I want to quickly update my progress on a task with minimal friction, so that I can report status without disrupting my work.
+12. 팀원으로서, 나는 최소한의 마찰로 빠르게 작업 진행상황을 업데이트하고 싶습니다. 그래야 업무를 방해하지 않으면서 상태를 보고할 수 있습니다.
 
-13. As a team member, I want to select from predefined status options (in progress, complete, blocked) without typing, so that status entry is fast and consistent.
+13. 팀원으로서, 나는 미리 정의된 상태 옵션 중 선택하고 싶습니다 (진행중, 완료, 대기). 그래야 상태 입력이 빠르고 일관성 있게 진행됩니다.
 
-14. As a team member, I want to add a brief text description of my progress (e.g., "Working on API auth module, hit a blocking issue with token refresh"), so that the team leader understands the details.
+14. 팀원으로서, 나는 진행상황을 간단한 텍스트로 설명하고 싶습니다 (예: "API 인증 모듈 작업 중, 토큰 갱신에서 차단 문제 발생"). 그래야 팀장이 상세 정보를 이해할 수 있습니다.
 
-15. As a team member, I want the form to be simple and mobile-friendly, so that I can update progress even if I'm away from my desk.
+15. 팀원으로서, 나는 입력 폼이 간단하고 모바일 친화적이기를 바랍니다. 그래야 책상에서 벗어나 있어도 진행상황을 업데이트할 수 있습니다.
 
-16. As a team member, I want to see a confirmation that my update was submitted, so that I know the team leader will see my latest status.
+16. 팀원으로서, 나는 진행상황 업데이트가 제출되었다는 확인을 보고 싶습니다. 그래야 팀장이 최신 상태를 볼 것이라는 것을 알 수 있습니다.
 
 ---
 
